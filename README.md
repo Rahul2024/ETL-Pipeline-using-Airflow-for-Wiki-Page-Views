@@ -1,1 +1,1 @@
-# ETL-Pipeline-using-Airflow-for-Wiki-Page-Views
+In this project i build an ETL pipeline with Apache Airflow to automate the extraction, transformation, and loading of Wikipedia page view data into a SQL Server database. The pipeline downloads hourly page view data, processes it to filter views for specific companies, and inserts the transformed data into the database. This setup enables hourly analysis of company page views, which can be used to study correlations with stock price movements.
